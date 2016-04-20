@@ -1,0 +1,18 @@
+item:emerald
+name:§aSell
+category:Shop
+slot:10, 11, 12, 19, 20, 21, 28, 29, 30
+  action:goto
+  value:Sell (page 1 of 2)
+item:diamond
+name:§bBuy
+category:Shop
+slot:14, 15, 16, 23, 24, 25, 32, 33, 34
+  action:goto
+  value:Buy (page 1 of 1)
+item:barrier
+name:§4close
+category:Shop
+slot:48, 49, 50
+  action:close
+  value:close

@@ -1,0 +1,41 @@
+item:iron_ingot
+name:iron ingot
+category:Buy (page 1 of 1)
+slot:2
+  action:Buy
+  value:10
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+item:arrow
+name:§8Previous page
+category:Buy (page 1 of 1)
+slot:48
+  action:nothing
+  value:nothing
+item:barrier
+name:§4Back
+category:Buy (page 1 of 1)
+slot:49
+  action:goto
+  value:Shop
+item:arrow
+name:§8Next page
+category:Buy (page 1 of 1)
+slot:50
+  action:nothing
+  value:nothing

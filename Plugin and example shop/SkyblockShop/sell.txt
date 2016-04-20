@@ -1,0 +1,196 @@
+item:cobblestone 32
+name:Cobblestone
+category:Sell (page 1 of 2)
+slot:1
+  action:sell
+  value:3
+item:cobblestone 64
+name:Cobblestone
+category:Sell (page 1 of 2)
+slot:10
+  action:sell
+  value:6
+item:stone 32
+name:Stone
+category:Sell (page 1 of 2)
+slot:2
+  action:sell
+  value:5
+item:stone 64
+name:Stone
+category:Sell (page 1 of 2)
+slot:11
+  action:sell
+  value:10
+item:log 10
+name:Wood
+category:Sell (page 1 of 2)
+slot:3
+  action:sell
+  value:3
+item:log 20
+name:Wood
+category:Sell (page 1 of 2)
+slot:12
+  action:sell
+  value:6
+  
+item:wheat 10
+name:Wheat
+category:Sell (page 1 of 2)
+slot:5
+  action:sell
+  value:2
+item:wheat 20
+name:Wheat
+category:Sell (page 1 of 2)
+slot:14
+  action:sell
+  value:4
+item:pumpkin 10
+name:Pumpkin
+category:Sell (page 1 of 2)
+slot:6
+  action:sell
+  value:5
+item:pumpkin 20
+name:Pumpkin
+category:Sell (page 1 of 2)
+slot:15
+  action:sell
+  value:10
+item:melon 40
+name:Melon
+category:Sell (page 1 of 2)
+slot:7
+  action:sell
+  value:5
+item:melon 80
+name:Melon
+category:Sell (page 1 of 2)
+slot:16
+  action:sell
+  value:10
+item:cactus 20
+name:Cactus
+category:Sell (page 1 of 2)
+slot:23
+  action:sell
+  value:3
+item:cactus 40
+name:Cactus
+category:Sell (page 1 of 2)
+slot:32
+  action:sell
+  value:6
+item:sugar_cane 20
+name:Sugar Canes
+category:Sell (page 1 of 2)
+slot:24
+  action:sell
+  value:1
+item:sugar_cane 40
+name:Sugar Canes
+category:Sell (page 1 of 2)
+slot:33
+  action:sell
+  value:2
+  
+  
+  
+  
+  
+  
+  
+  
+item:sulphur 32
+name:Gunpowder
+category:Sell (page 2 of 2)
+slot:12
+  action:sell
+  value:3
+item:bone 32
+name:Bone
+category:Sell (page 2 of 2)
+slot:13
+  action:sell
+  value:3
+item:arrow 32
+name:Arrow
+category:Sell (page 2 of 2)
+slot:14
+  action:sell
+  value:3
+item:string 32
+name:String
+category:Sell (page 2 of 2)
+slot:21
+  action:sell
+  value:3
+item:spider_eye 32
+name:Spider Eye
+category:Sell (page 2 of 2)
+slot:22
+  action:sell
+  value:5
+item:rotten_flesh 32
+name:Rotten Flesh
+category:Sell (page 2 of 2)
+slot:23
+  action:sell
+  value:3
+item:ender_pearl 16
+name:Ender Pearl
+category:Sell (page 2 of 2)
+slot:30
+  action:sell
+  value:10
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+item:arrow
+name:§8Previous page
+category:Sell (page 1 of 2)
+slot:48
+  action:nothing
+  value:nothing
+item:barrier
+name:§4Back
+category:Sell (page 1 of 2)
+slot:49
+  action:goto
+  value:Shop
+item:spectral_arrow
+name:§aNext page
+category:Sell (page 1 of 2)
+slot:50
+  action:goto
+  value:Sell (page 2 of 2)
+  
+  
+item:spectral_arrow
+name:§aPrevious page
+category:Sell (page 2 of 2)
+slot:48
+  action:goto
+  value:Sell (page 1 of 2)
+item:barrier
+name:§4Back
+category:Sell (page 2 of 2)
+slot:49
+  action:goto
+  value:Shop
+item:arrow
+name:§8Next page
+category:Sell (page 2 of 2)
+slot:50
+  action:nothing
+  value:nothing
