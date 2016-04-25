@@ -92,8 +92,12 @@ class ShopHandler implements Listener {
                     //default material if nulled
                     if (m==null) {m = Material.STONE_BUTTON;}
 
+                    //set stacked number
+                    int stackNum = 1;
+                    if (itemNum<=64) {stackNum = itemNum;}
+
                     //create item stack and meta
-                    ItemStack itemStack = new ItemStack(m, itemNum, itemByte);
+                    ItemStack itemStack = new ItemStack(m, stackNum, itemByte);
                     ItemMeta itemMeta = itemStack.getItemMeta();
                     itemMeta.setDisplayName(ChatColor.GOLD + args[1]);
 
@@ -162,7 +166,11 @@ class ShopHandler implements Listener {
         return temp;
     }
 
-
+    static void clearShops() {
+        shopInv.clear();
+        shopInvPre.clear();
+        shopList.clear();
+    }
 
 
     /*

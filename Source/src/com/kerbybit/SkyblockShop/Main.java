@@ -26,12 +26,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         registerEvents(this, new CommHandler(), new ShopHandler());
 
-        //load .meta file (money)
-        FileHandler.loadMeta();
-
-        //load shop txts and generate shop inventories
-        ShopHandler.shopList.addAll(FileHandler.loadShop());
-        ShopHandler.createShopInvs();
+        reload();
 
         //run scheduler every 40 ticks to send action bar data for money display
         BukkitScheduler scheduler = Bukkit.getServer().getScheduler();
@@ -53,6 +48,18 @@ public class Main extends JavaPlugin {
         }, 0L, 40L);
     }
 
+    //load method
+    static void reload() {
+        //clear shops
+        ShopHandler.clearShops();
+
+        //load .meta file (money)
+        FileHandler.loadMeta();
+
+        //load shop txts and generate shop inventories
+        ShopHandler.shopList.addAll(FileHandler.loadShop());
+        ShopHandler.createShopInvs();
+    }
 
     //check and update money
     static Boolean updateMoney(int change) {

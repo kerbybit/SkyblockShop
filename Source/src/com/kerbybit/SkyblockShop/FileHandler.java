@@ -1,5 +1,7 @@
 package com.kerbybit.SkyblockShop;
 
+import org.bukkit.ChatColor;
+
 import java.io.*;
 import java.util.ArrayList;
 
@@ -42,7 +44,7 @@ class FileHandler {
             ArrayList<String> lines = new ArrayList<>();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream("./plugins/SkyblockShop/" + file.getName()), "UTF-8"));
             while ((lineRead = bufferedReader.readLine()) != null) {
-                lines.add(lineRead);
+                lines.add(ChatColor.translateAlternateColorCodes('&', lineRead));
             }
             bufferedReader.close();
 

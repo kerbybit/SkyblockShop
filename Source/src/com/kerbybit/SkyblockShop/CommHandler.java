@@ -49,7 +49,11 @@ class CommHandler implements Listener {
                             }
                         }
                         break;
-                    case ("!LISTSHOP"):
+                    case ("!RELOADSHOPS"):
+                        Main.reload();
+                        player.sendMessage(ChatColor.GREEN + "Reloaded shops");
+                        break;
+                    case ("!LISTSHOPS"):
                         //debug command
                         for (String shop : ShopHandler.getShops()) {
                             //list all defined shops
