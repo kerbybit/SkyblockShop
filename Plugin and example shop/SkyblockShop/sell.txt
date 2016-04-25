@@ -9,7 +9,19 @@ name:Cobblestone
 category:Sell (page 1 of 2)
 slot:10
   action:sell
-  value:6
+  value:7
+item:cobblestone 128
+name:Cobblestone
+category:Sell (page 1 of 2)
+slot:19
+  action:sell
+  value:15
+item:cobblestone 256
+name:Cobblestone
+category:Sell (page 1 of 2)
+slot:28
+  action:sell
+  value:31
 item:stone 32
 name:Stone
 category:Sell (page 1 of 2)
@@ -21,19 +33,44 @@ name:Stone
 category:Sell (page 1 of 2)
 slot:11
   action:sell
-  value:10
-item:log 10
+  value:11
+item:stone 128
+name:Stone
+category:Sell (page 1 of 2)
+slot:20
+  action:sell
+  value:23
+item:stone 256
+name:Stone
+category:Sell (page 1 of 2)
+slot:29
+  action:sell
+  value:47
+item:log 16
 name:Wood
 category:Sell (page 1 of 2)
 slot:3
   action:sell
-  value:3
-item:log 20
+  value:4
+item:log 32
 name:Wood
 category:Sell (page 1 of 2)
 slot:12
   action:sell
-  value:6
+  value:9
+item:log 64
+name:Wood
+category:Sell (page 1 of 2)
+slot:21
+  action:sell
+  value:19
+item:log 128
+name:Wood
+category:Sell (page 1 of 2)
+slot:30
+  action:sell
+  value:39
+  
   
 item:wheat 10
 name:Wheat
@@ -157,19 +194,19 @@ slot:30
   
   
 item:arrow
-name:§8Previous page
+name:&8Previous page
 category:Sell (page 1 of 2)
 slot:48
   action:nothing
   value:nothing
 item:barrier
-name:§4Back
+name:&4Back
 category:Sell (page 1 of 2)
 slot:49
   action:goto
   value:Shop
 item:spectral_arrow
-name:§aNext page
+name:&aNext page
 category:Sell (page 1 of 2)
 slot:50
   action:goto
@@ -177,19 +214,19 @@ slot:50
   
   
 item:spectral_arrow
-name:§aPrevious page
+name:&aPrevious page
 category:Sell (page 2 of 2)
 slot:48
   action:goto
   value:Sell (page 1 of 2)
 item:barrier
-name:§4Back
+name:&4Back
 category:Sell (page 2 of 2)
 slot:49
   action:goto
   value:Shop
 item:arrow
-name:§8Next page
+name:&8Next page
 category:Sell (page 2 of 2)
 slot:50
   action:nothing

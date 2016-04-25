@@ -1,9 +1,85 @@
-item:iron_ingot
-name:iron ingot
-category:Buy (page 1 of 1)
-slot:2
-  action:Buy
+item:sand 16
+name:Sand
+category:Buy (page 1 of 4)
+slot:30
+  action:buy
+  value:32
+item:sand 16 1
+name:Red Sand
+category:Buy (page 1 of 4)
+slot:31
+  action:buy
+  value:32
+item:gravel 16
+name:Gravel
+category:Buy (page 1 of 4)
+slot:32
+  action:buy
+  value:32
+
+item:grass 5
+name:Grass
+category:Buy (page 1 of 4)
+slot:11
+  action:buy
+  value:32
+item:mycel 5
+name:Mycelium
+category:Buy (page 1 of 4)
+slot:12
+  action:buy
+  value:64
+item:dirt 10 2
+name:Podzol
+category:Buy (page 1 of 4)
+slot:13
+  action:buy
+  value:32
+item:dirt 10
+name:Dirt
+category:Buy (page 1 of 4)
+slot:14
+  action:buy
+  value:32
+item:dirt 10 1
+name:Coarse Dirt
+category:Buy (page 1 of 4)
+slot:15
+  action:buy
+  value:32
+  
+item:netherrack 16
+name:Netherrack
+category:Buy (page 1 of 4)
+slot:20
+  action:buy
   value:10
+item:soul_sand 16
+name:Soul Sand
+category:Buy (page 1 of 4)
+slot:21
+  action:buy
+  value:20
+item:ender_stone 8
+name:End Stone
+category:Buy (page 1 of 4)
+slot:22
+  action:buy
+  value:16
+item:purpur_block 16
+name:Purpur Block
+category:Buy (page 1 of 4)
+slot:23
+  action:buy
+  value:32
+item:quartz_block 16
+name:Quartz Block
+category:Buy (page 1 of 4)
+slot:24
+  action:buy
+  value:32 
+
+
   
   
   
@@ -11,8 +87,226 @@ slot:2
   
   
   
+item:ink_sack 8 1
+name:Rose Red
+category:Buy (page 2 of 4)
+slot:2
+  action:buy
+  value:16
+item:ink_sack 8 14
+name:Orange Dye
+category:Buy (page 2 of 4)
+slot:3
+  action:buy
+  value:16
+item:ink_sack 8 11
+name:Dandelion Yellow
+category:Buy (page 2 of 4)
+slot:4
+  action:buy
+  value:16
+  
+item:ink_sack 8 2
+name:Cactus Green
+category:Buy (page 2 of 4)
+slot:11
+  action:buy
+  value:16
+item:ink_sack 8 4
+name:Lapis Lazuli
+category:Buy (page 2 of 4)
+slot:12
+  action:buy
+  value:16
+item:ink_sack 8 12
+name:Light Blue Dye
+category:Buy (page 2 of 4)
+slot:13
+  action:buy
+  value:16
+  
+item:ink_sack 8 13
+name:Magenta Dye
+category:Buy (page 2 of 4)
+slot:20
+  action:buy
+  value:16
+item:ink_sack 8 9
+name:Pink Dye
+category:Buy (page 2 of 4)
+slot:21
+  action:buy
+  value:16
+item:ink_sack 8 15
+name:Bone Meal
+category:Buy (page 2 of 4)
+slot:22
+  action:buy
+  value:16
+  
+item:ink_sack 8 7
+name:Light Gray Dye
+category:Buy (page 2 of 4)
+slot:29
+  action:buy
+  value:16
+item:ink_sack 8
+name:Ink Sac
+category:Buy (page 2 of 4)
+slot:30
+  action:buy
+  value:16
+item:ink_sack 8 3
+name:Cocoa Beans
+category:Buy (page 2 of 4)
+slot:31
+  action:buy
+  value:16
+  
+item:ink_sack 8 6
+name:Cyan Dye
+category:Buy (page 2 of 4)
+slot:6
+  action:buy
+  value:16
+item:ink_sack 8 5
+name:Purple Dye
+category:Buy (page 2 of 4)
+slot:15
+  action:buy
+  value:16
+item:ink_sack 8 8
+name:Gray Dye
+category:Buy (page 2 of 4)
+slot:24
+  action:buy
+  value:16
+item:ink_sack 8 10
+name:Lime Dye
+category:Buy (page 2 of 4)
+slot:33
+  action:buy
+  value:16
   
   
+  
+  
+  
+item:glowstone_dust 8
+name:Glowstone Dust
+category:Buy (page 3 of 4)
+slot:10
+  action:buy
+  value:32
+item:redstone 8
+name:Redstone Dust
+category:Buy (page 3 of 4)
+slot:11
+  action:buy
+  value:4
+item:quartz 8
+name:Nether Quartz
+category:Buy (page 3 of 4)
+slot:12
+  action:buy
+  value:32
+  
+item:nether_stalk 4
+name:Nether Warts
+category:Buy (page 3 of 4)
+slot:19
+  action:buy
+  value:32
+item:blaze_rod 1
+name:Blaze Rod
+category:Buy (page 3 of 4)
+slot:20
+  action:buy
+  value:8
+item:chorus_fruit 16
+name:Chorus Fruit
+category:Buy (page 3 of 4)
+slot:21
+  action:buy
+  value:32  
+
+item:prismarine_shard 8
+name:Prismarine Shard
+category:Buy (page 3 of 4)
+slot:28
+  action:buy
+  value:16
+item:prismarine_crystals 5
+name:Prismarine Crystals
+category:Buy (page 3 of 4)
+slot:29
+  action:buy
+  value:16
+item:clay_ball 8
+name:Clay
+category:Buy (page 3 of 4)
+slot:30
+  action:buy
+  value:16
+
+  
+item:iron_ingot 1
+name:Iron Ingot
+category:Buy (page 3 of 4)
+slot:14
+  action:buy
+  value:10
+item:gold_ingot 1
+name:Iron Ingot
+category:Buy (page 3 of 4)
+slot:15
+  action:buy
+  value:10
+item:diamond 1
+name:Diamond
+category:Buy (page 3 of 4)
+slot:16
+  action:buy
+  value:32
+  
+item:water_bucket
+name:Water Bucket
+category:Buy (page 3 of 4)
+slot:23
+  action:buy
+  value:32
+item:lava_bucket
+name:Lava Bucket
+category:Buy (page 3 of 4)
+slot:24
+  action:buy
+  value:48
+item:exp_bottle
+name:Bottle o' Enchanting
+category:Buy (page 3 of 4)
+slot:25
+  action:buy
+  value:5
+
+  
+item:water_lily
+name:Lily Pad
+category:Buy (page 3 of 4)
+slot:32
+  action:buy
+  value:5
+item:ice 8
+name:Ice
+category:Buy (page 3 of 4)
+slot:33
+  action:buy
+  value:10
+item:packed_ice 4
+name:Packed Ice
+category:Buy (page 3 of 4)
+slot:34
+  action:buy
+  value:10
   
   
   
@@ -22,20 +316,77 @@ slot:2
   
 
 item:arrow
-name:§8Previous page
-category:Buy (page 1 of 1)
+name:&8Previous page
+category:Buy (page 1 of 4)
 slot:48
   action:nothing
   value:nothing
 item:barrier
-name:§4Back
-category:Buy (page 1 of 1)
+name:&4Back
+category:Buy (page 1 of 4)
+slot:49
+  action:goto
+  value:Shop
+item:spectral_arrow
+name:&aNext page
+category:Buy (page 1 of 4)
+slot:50
+  action:goto
+  value:Buy (page 2 of 4)
+  
+item:spectral_arrow
+name:&aPrevious page
+category:Buy (page 2 of 4)
+slot:48
+  action:goto
+  value:Buy (page 1 of 4)
+item:barrier
+name:&4Back
+category:Buy (page 2 of 4)
+slot:49
+  action:goto
+  value:Shop
+item:spectral_arrow
+name:&aNext page
+category:Buy (page 2 of 4)
+slot:50
+  action:goto
+  value:Buy (page 3 of 4)
+  
+item:spectral_arrow
+name:&aPrevious page
+category:Buy (page 3 of 4)
+slot:48
+  action:goto
+  value:Buy (page 2 of 4)
+item:barrier
+name:&4Back
+category:Buy (page 3 of 4)
+slot:49
+  action:goto
+  value:Shop
+item:spectral_arrow
+name:&aNext page
+category:Buy (page 3 of 4)
+slot:50
+  action:goto
+  value:Buy (page 4 of 4)
+  
+item:spectral_arrow
+name:&aPrevious page
+category:Buy (page 4 of 4)
+slot:48
+  action:goto
+  value:Buy (page 3 of 4)
+item:barrier
+name:&4Back
+category:Buy (page 4 of 4)
 slot:49
   action:goto
   value:Shop
 item:arrow
-name:§8Next page
-category:Buy (page 1 of 1)
+name:&8Next page
+category:Buy (page 4 of 4)
 slot:50
   action:nothing
   value:nothing
